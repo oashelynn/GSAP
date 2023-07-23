@@ -1,4 +1,40 @@
+// import { useRef, useEffect } from "react";
+// import { gsap } from "gsap";
+// import { ScrollTrigger } from "gsap/dist/ScrollTrigger.js";
+
 const Title = () => {
+  // gsap.registerPlugin(ScrollTrigger);
+  // const ref = useRef(null);
+  // const Horizontalref = useRef(null);
+  
+  // useEffect(() => {
+  //   const element = ref.current;
+  //   const scrollingElement = Horizontalref.current;
+  //   const pinWrapWidth = scrollingElement.offsetWidth;
+  //   gsap.fromTo(
+  //     element.querySelector("#owner-the"),
+  //     {
+  //       opacity: 1,
+  //       // y: -20,
+  //     },
+  //     {
+  //       opacity: 0,
+  //       duration: 3,
+  //       // y: 2px,
+  //       scrollTrigger: {
+  //         trigger: element.querySelector("#owner-the"),
+  //         markers: true,
+  //         start: "top 200px",
+  //         end: `${pinWrapWidth} bottom`,
+  //         scrub: true,
+  //       },
+  //       x: -pinWrapWidth,
+        
+  //       ease: "none"
+  //     },
+  //   );
+  // }, []);
+
   return (
     <div className="py-[180px] font-normal leading-normal font-sysui text-center">
         <p className="text-[120px]">

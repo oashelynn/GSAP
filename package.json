@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "export": "next export",
     "lint": "next lint",
@@ -11,7 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "bad-words": "^3.0.4",
-    "gsap": "^3.8.0",
+    "gsap": "^3.12.2",
     "lottie-react": "^2.4.0",
     "lottie-web": "^5.8.1",
     "next": "latest",
@@ -28,8 +28,8 @@
   "devDependencies": {
     "@iconify/react": "^4.1.1",
     "autoprefixer": "^10.2.6",
-    "eslint": "7.*",
-    "eslint-config-next": "*",
+    "eslint": "8.1.0",
+    "eslint-config-next": "12.0.2",
     "install": "^0.13.0",
     "npm": "^9.8.0",
     "postcss": "^8.3.5",
